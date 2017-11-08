@@ -1,0 +1,116 @@
+@font-face {
+	font-family:"Determination Sans Web";
+	src:local('../Determination Sans Web'),url('../fonts/DeterminationSansWeb.eot') format("eot"),url('../fonts/DeterminationSansWeb.woff') format("woff"),url('../fonts/DeterminationSansWeb.otf') format("opentype");
+}
+
+body {
+	background-image:
+    url(http://fullhdpictures.com/wp-content/uploads/2015/12/Undertale-Wallpapers-HD.png);
+  font-family: "Comic Sans MS", sans-serif;
+  font-weight: bold;
+  color: white;
+	font-size:100%;
+	cursor: url('data:image/x-icon;base64,AAACAAEAICACAAAAAAAwAQAAFgAAACgAAAAgAAAAQAAAAAEAAQAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4AAAA/AAAAf4AAAP/AAAH/4AAD//AAB//4AA///AAP//wAD//8AA///AAP//wAD//8AA///AAP//wAB/P4AAPh8AABgGAAAAAAAA//////////////////////////////////////////////////////////////////////4f///8D///+Af///AD///gAf//wAD//4AAf/8AAD//AAA//wAAP/8AAD//AAA//wAAP/8AAD//AAA//4DAf//B4P//5/n///////8='), auto;
+}
+
+
+p {
+  font-size: 20px;
+  font-weight:normal;
+  color: white;
+}
+
+img, iframe, span, font {max-width: 100%;}
+
+a:hover{
+	cursor: url('data:image/x-icon;base64,AAACAAEAICACAAAAAAAwAQAAFgAAACgAAAAgAAAAQAAAAAEAAQAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4AAAA/AAAAf4AAAP/AAAH/4AAD//AAB//4AA///AAP//wAD//8AA///AAP//wAD//8AA///AAP//wAB/P4AAPh8AABgGAAAAAAAA//////////////////////////////////////////////////////////////////////4f///8D///+Af///AD///gAf//wAD//4AAf/8AAD//AAA//wAAP/8AAD//AAA//wAAP/8AAD//AAA//4DAf//B4P//5/n///////8='), auto;
+}
+
+#contenedor {
+  background: url("../images/Portada.jpg") fixed; //Imagen de fondo
+  max-height: 100%;
+  height: 400px; //altura del fondo
+  position: relative;
+  margin-bottom: 50px;
+  padding: 5%;
+  overflow: hidden;
+  background-size: auto;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+#contenedor .scene img {
+  display: block;
+  width: 100%; //evitamos que las imagenes se desborden
+}
+
+#contenedor .layer:nth-child(1){
+  width:100px; //Modificalo para cambiar el tamaño de la primera imagen de la lista
+}
+
+#contenedor .layer:nth-child(2){
+  width: 60px; //Modificalo para cambiar el tamaño de la segunda imagen de la lista
+}
+
+.bajo-contenedor{
+height: 100px;
+width: 100%;
+}
+
+
+.tabs {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: auto;
+  background-color: #000;
+}
+.tabs .indicator {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background-color: #fff600;
+  will-change: left, right;
+}
+
+.titulo {
+  font-family:"Determination Sans Web", "Comic Sans MS", sans-serif;
+  font-size: 30px;
+	color: #fff;
+	margin-left: 0px;
+}
+
+.titulo:hover{
+	color: #fff600;
+}
+
+.centra-imgtitulo {
+  text-align:center;
+  padding: 20px;
+	padding-top: 100px;
+	padding-bottom: 150px;
+	background-color: #000;
+}
+
+.centra-img {
+  text-align:center;
+}
+
+.materialboxed {
+  text-align:center;
+}
+
+.caja {
+  border: 5px solid #fff;
+  padding: 40px;
+  margin:10px;
+  margin-bottom: 50px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.pie {
+  border: 5px solid #fff;
+  padding: 20px;
+  margin:10px;
+  text-align: center;
+	background-color: rgba(0, 0, 0, 0.8);
+}
